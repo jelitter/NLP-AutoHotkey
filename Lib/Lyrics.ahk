@@ -2,7 +2,7 @@ getRandomLyric(lang="EN") {
   ; https://developer.musixmatch.com/admin/applications
   ; Token: 676f595ad74e77437317104e2aae726a
   ; https://developer.musixmatch.com/documentation/api-methods
-	apiKey := "676f595ad74e77437317104e2aae726a"
+	apiKey := "ENTER_YOUR_API_KEY_HERE"
 	apiURL := "http://api.musixmatch.com/ws/1.1/"
 	trackURL := "http://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=" apiKey "&track_id="
 	songListUS := apiURL "chart.tracks.get?page=1&page_size=100&country=US&f_has_lyrics=1&apikey=" apiKey
